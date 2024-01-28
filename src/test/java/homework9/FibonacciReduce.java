@@ -3,7 +3,7 @@ import java.util.stream.Stream;
 
 public class FibonacciReduce {
   public static void main(String[] args) {
-   int n = 10;
+   int n = 11;
     long fibonacciNumber = calculateFibonacci(n);
     System.out.println("The " + n + "-th Fibonacci number is: " + fibonacciNumber);
   }
